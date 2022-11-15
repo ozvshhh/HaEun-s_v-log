@@ -1,8 +1,32 @@
-#header{
+
+body{
+    margin: 0;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+    background: #cae4f8;
+    margin: 0;
     
-    p {
-        font-size: 100px;
-        color: yellow;
+    .conteiner{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50vh 50vh;
     }
-    
+        .item{
+            background-color: yellow;
+
+        }
+            .document{
+                width: auto;
+                height: 100%;
+            }
+
+            .item-center{
+                grid-column: 2/3;
+                grid-row: 1/3;
+                background-color: yellow;
+                
+
+            }
 }
