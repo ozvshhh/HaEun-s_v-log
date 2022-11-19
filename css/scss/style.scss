@@ -8,13 +8,13 @@ body{
     background: #cae4f8;
     margin: 0;
     
-    .conteiner{
+    .hello{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 50vh 50vh;
     }
         .item{
-            background-color: yellow;
+            background-color: rgb(180, 226, 238);
 
         }
             .document{
@@ -25,7 +25,7 @@ body{
             .item-center{
                 grid-column: 2/3;
                 grid-row: 1/3;
-                background-color: yellow;
+                background-color: rgb(180, 226, 238);
                 
 
             }
